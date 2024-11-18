@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "wallpaper-app",
+    "slug": "wallpaper-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.devanshexpo.wallpaperapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1bdc9426-00d5-47fd-8de4-904f6e191bb9"
+      },
+      "apiKey": "46832955-1b86cbca2c3bebb2a4d615385"
+    }
+  }
+}
